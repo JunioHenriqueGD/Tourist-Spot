@@ -1,0 +1,392 @@
+html {
+    box-sizing: border-box;
+  }
+  
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+body
+    {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: antiquewhite;
+        height: auto;
+    }
+
+
+main > article > section
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2vw;
+        border-bottom: double 1vh black;
+        border-radius: 0 0 2vw 2vw;
+        margin-bottom: 1.5vh;
+    }
+
+main > article > section:nth-child(2)
+    {
+        border-bottom: none;
+    }
+
+main > article > section:first-child img
+    {
+        display: block;
+        width: 100%;
+        height: 50vh;
+        border-radius: 5vw;
+        border: gray 1vw double;
+    }
+
+@media (min-width: 600px)
+    {
+        main > article > section:first-child img
+            {
+                display: block;
+                width: 100%;
+                height: 65vh;
+                border-radius: 5vw;
+                border: gray 1vw double;
+            }
+    }
+
+main > article > section:nth-child(2) > header img
+    {
+        display: block;
+        width: 80%;
+        height: 40%;
+        border-radius: 5vw;
+        border: 1vw double gray;
+        margin-bottom: 2.5vh;
+    }
+
+main > article > section:nth-child(2) > header 
+    {
+        display: inherit;
+        flex-direction: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+    }
+
+main > article > section:nth-child(2) > nav 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+
+main > article > section:nth-child(2) nav figure
+    {
+        display: inline-block;
+        width: 35%;
+        height: 15vh;
+        margin-bottom: 8vh;
+    }
+
+main > article > section:nth-child(2) nav figure img
+    {
+        width: 100%;
+        height: 100%;
+        border-radius: 5vw;
+    }
+
+main > article > section:nth-child(3) > article
+    {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+main > article > section:nth-child(3) > article h2
+    {
+        border-radius: 2vw;
+        border-bottom: double black 0.5vh;
+        width: 60%;
+        margin: 6vh 0 1vh 0;
+    }
+
+main > article > section:nth-child(3) > article > header
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+        width: 100%;
+    }
+
+main > article > section:nth-child(3) > article > header img
+    {
+        display: block;
+        height: 50vh;
+        width: 100%;
+        border-radius: 5vw;
+    }
+
+main > article > section:nth-child(3) > article > header iframe
+    {
+        display: block;
+        height: 50vh;
+        width: 100%;
+        margin-top: 1.75vh;
+        border-radius: 5vw;
+    }
+
+p
+    {
+        line-height: 2rem;
+        text-align: justify;
+        font-size: 1.5rem;
+    }
+
+
+h1 {
+        width: 100%;
+        font-size: 2rem;
+        background-image: url(./main_section_nav_section_JapanFlapBackground.jpg), url(./main_section_nav_section_JapanFlapBackground.jpg);
+        background-size: contain; 
+        background-repeat: no-repeat;
+        background-position: right top, left top;
+        margin: 2.5vh 0 2vh 0;
+    }
+    
+h1, h2
+        {
+            text-align: center;
+        }
+
+    
+strong
+        {
+            color: red;
+    
+        }
+    
+figcaption
+        {
+            text-align: center;
+            border: 0.5vh double black;
+            border-radius: 2.5vw;
+            text-wrap: wrap;
+    
+        }
+    
+figure:hover
+        {
+            background-color: darkred;
+            border-radius: 1vw;
+        }
+
+
+@media (min-width: 1024px)
+    {
+        main > article > section:first-child, main > article > section:nth-child(2)
+            {
+                height: 100vh;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                padding: 0 1vw;
+                border-radius: 2vw;
+                border-bottom: none;
+            }
+    
+        main > article > section:first-child img
+            {
+                display: block;
+                width: 45%;
+                height: 95%;
+                border-radius: 10vw 0.5vw 10vw 0.5vw;
+                border: 0.5vw double gray;
+            }
+
+        main > article > section:first-child > div 
+            {
+                height: 100%;
+                padding: 2vh 2.5vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center; 
+                width: 55%;
+                border-right: black 0.5vw double;
+                border-radius: 0 2vw 2vw 0;
+            }
+
+        main > article > section:first-child  p, main > article > section:nth-child(2) > header p 
+            {
+                line-height: 1.75rem;         
+            }
+
+        main > article > section:first-child > div p:nth-child(2) 
+            {
+                margin-bottom: 0.25vh; 
+            }
+
+/*Second child editions*/
+
+        main > article > section:nth-child(2)
+            {
+                border-left: double 0.5vw black;
+                border-radius: 2vw 0 0 2vw;
+                margin-bottom: 15vh;
+                margin-top: 5vh;
+            }
+
+        main > article > section:nth-child(2) header
+            {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;  
+                padding: 2vh 0 0 0;
+            }
+
+        main > article > section:nth-child(2) nav
+            {
+                height: 100%;
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+        main > article > section:nth-child(2) nav figure
+            {
+                width: 30%;
+                height: 22.5%;
+            }
+
+
+
+        main > article > section:nth-child(2) > header img
+            {
+                display: block;
+                width: 60%;
+                height: 40%;
+                border-radius: 5vw 1.25vw 5vw 1.25vw;
+                border: 0.5vw double gray;
+                margin-top: 6vh;
+            }
+
+/*Third child section edition*/
+
+        main > article > section:nth-child(3)
+            {
+                display: block;
+                height: auto;
+            }
+
+        main > article > section:nth-child(3) > article
+            {
+                height: 150vh;
+            }
+        main > article > section:nth-child(3) > article header
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                height: 40%;
+                width: 100%;
+            }
+
+        main > article > section:nth-child(3) > article div
+            {
+                height: 60%;
+            }
+
+        main > article > section:nth-child(3) > article  header img
+            {
+                display: block;
+                height: 100%;
+                width: 50%;
+                margin: 0 0.5vw 0 0;
+                border-radius: 2vw;
+            }
+
+        main > article > section:nth-child(3) > article header iframe
+            {
+                display: block;
+                height: 100%;
+                width: 50%;
+                margin: 0 0 0 0.5vw;
+                border-radius: 2vw;
+            }
+
+        main > article > section:nth-child(3) > article div p
+            {
+                margin: 0;
+            }
+
+        main > article > section:nth-child(3) > article h2
+            {
+                border-radius: 2vw;
+                border-bottom: double black 0.5vh;
+                width: 40%;
+            }
+
+        p
+            {
+                font-size: 1.25rem;
+                line-height: 1.5rem;
+            }
+
+        .content 
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding: 2vh 0 0 0;
+            }
+        
+        .content > div 
+            {
+                width: 50%;
+                height: 100%;
+                padding: 1vh 2vw;
+            
+            }
+
+}
+
+.content > div a
+    {
+        display: block;
+        text-align: right;
+        font-size: 1.25rem;
+        margin: 7.75vh 0 0 0;   
+    }
+
+.content p
+    {
+        border-bottom: 0.5vh solid black;
+        border-left: double black 0.5vh;
+        border-top-left-radius: 1vw;
+        border-bottom-left-radius: 1vw;
+        padding: 1vh;         
+    }
+
+
+    
+
+
+
+
+
+
+
+
