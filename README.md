@@ -7,6 +7,10 @@
 
 Este projeto é uma página web estática que apresenta alguns dos pontos turísticos mais icônicos de Tóquio, no Japão. A proposta é oferecer uma experiência visual e informativa sobre locais como o Palácio Imperial, o Santuário Meiji, Shibuya, entre outros. O conteúdo é inteiramente em português e voltado a viajantes e curiosos interessados na cultura e nos atrativos da capital japonesa.
 
+## 🌐 Acesse Online
+
+[🔗 Clique aqui para visualizar o projeto](https://juniohenriquegd.github.io/Tourist-Spot/)
+
 ---
 [![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
